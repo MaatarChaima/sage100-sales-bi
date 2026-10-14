@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SAGE100_SSIS", "SSIS\SAGE100_SSIS.dtproj", "{AC0702B7-6B18-4C43-98BF-DF2FCE2E59E6}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SAGE100_SSAS", "SSAS\SAGE100_SSAS.dwproj", "{E4A11659-FE4C-4430-89F7-337FC7254CD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC0702B7-6B18-4C43-98BF-DF2FCE2E59E6}.Development|Default.ActiveCfg = Development
+		{AC0702B7-6B18-4C43-98BF-DF2FCE2E59E6}.Development|Default.Build.0 = Development
+		{E4A11659-FE4C-4430-89F7-337FC7254CD2}.Development|Default.ActiveCfg = Development
+		{E4A11659-FE4C-4430-89F7-337FC7254CD2}.Development|Default.Build.0 = Development
+		{E4A11659-FE4C-4430-89F7-337FC7254CD2}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ECECE59-653F-4ABD-8A81-48EFE5B05DD3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
+# SSIS / SSAS build output
+*.ispac
+*.asdatabase
+*.deploymenttargets
+*.deploymentoptions
+*.configsettings
+
+# Old / backup packages
+*.old
+*.bak
+
+# Power BI temp files
+~$*.pbix

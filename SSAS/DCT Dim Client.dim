@@ -1,0 +1,390 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9b5a6635-eef6-418c-bcb8-f4c089073c6d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DCT Dim Client</ID>
+  <Name>Client</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1133" scrolltop="-3524" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6435" y="11515" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DCT_Dim_Client" left="147" top="-339" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4128" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00002010000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DCT_Dim_Client" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1133</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3524</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>147</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-339</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="187">
+            <Shape Id="DCT Id Client" Expanded="false">
+              <Attributes>
+                <Attribute Id="DCT Id Client" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="DCT Intitule Client" Expanded="false">
+              <Attributes>
+                <Attribute Id="DCT Intitule Client" />
+                <Attribute Id="DCT Code Client" />
+              </Attributes>
+              <Position x="258" y="20" />
+            </Shape>
+            <Shape Id="DCT Classement Client 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="DCT Classement Client 1" />
+              </Attributes>
+              <Position x="497" y="20" />
+            </Shape>
+            <Shape Id="DCT Code Postal" Expanded="false">
+              <Attributes>
+                <Attribute Id="DCT Code Postal" />
+              </Attributes>
+              <Position x="497" y="69" />
+            </Shape>
+            <Shape Id="DCT Ville Client" Expanded="false">
+              <Attributes>
+                <Attribute Id="DCT Ville Client" />
+              </Attributes>
+              <Position x="736" y="69" />
+            </Shape>
+            <Shape Id="DCT Pays Client" Expanded="false">
+              <Attributes>
+                <Attribute Id="DCT Pays Client" />
+              </Attributes>
+              <Position x="975" y="69" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="491fe043-b20d-498a-964d-51dcdaaf9ddb">
+    <DataSourceViewID>DS_SAGE100</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="e3181593-0960-46a1-82e3-5f0c215393b8">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="a7825978-6fb1-4217-837c-3f5c1fbe07fd">
+      <ID>DCT Id Client</ID>
+      <Name>DCT Id Client</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a669ddfc-03b2-486e-bd05-b4d4471ad4e9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5d2cd5a9-6cd6-4101-a73f-e2f1222ad215">
+            <TableID>dbo_DCT_Dim_Client</TableID>
+            <ColumnID>DCT_IdClient</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7ca6bc4e-2f68-49b8-a3c1-c505957f70b9">
+          <AttributeID>DCT Intitule Client</AttributeID>
+          <Name>Client</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f2540901-86b1-4c94-825c-724c66a09d5f">
+      <ID>DCT Code Client</ID>
+      <Name>CodeClient</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d7dbad3b-20a2-4cb3-bc5c-4cf35473c009">
+          <DataType>WChar</DataType>
+          <DataSize>17</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8557b100-de7c-4932-8ddf-1354291c240d">
+            <TableID>dbo_DCT_Dim_Client</TableID>
+            <ColumnID>DCT_CodeClient</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="95b488be-5268-4aba-bb40-56a4cb53863a">
+      <ID>DCT Intitule Client</ID>
+      <Name>Client</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a14fe171-ebdf-4be7-8ef4-5bc667713328">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="67940fc0-b5f7-4fe6-af12-4d0b2cdacae8">
+            <TableID>dbo_DCT_Dim_Client</TableID>
+            <ColumnID>DCT_IdClient</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="fcde4f3c-0abf-4a75-8bb1-a5f360b6b513">
+        <DataType>WChar</DataType>
+        <DataSize>35</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a01c52f7-2274-4582-9cfd-d49ad96ba036">
+          <TableID>dbo_DCT_Dim_Client</TableID>
+          <ColumnID>DCT_IntituleClient</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="88a97f2f-e42a-4b1a-97ee-b6870a80367f">
+          <AttributeID>DCT Code Client</AttributeID>
+          <Name>CodeClient</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4a885650-4302-4564-8bfa-813803b59211">
+          <AttributeID>DCT Code Postal</AttributeID>
+          <Name>CodePostal</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="678598ba-5b20-480e-a564-ccc431daf01c">
+          <AttributeID>DCT Classement Client 1</AttributeID>
+          <Name>ClassementClient</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9658fa2d-6c64-43ee-a4bb-16f58613be69">
+      <ID>DCT Code Postal</ID>
+      <Name>CodePostal</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dba12543-6736-4304-906a-08f832ad1e64">
+          <DataType>WChar</DataType>
+          <DataSize>9</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="78861fd5-7f84-4820-9e42-0db197a0c75d">
+            <TableID>dbo_DCT_Dim_Client</TableID>
+            <ColumnID>DCT_CodePostal</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="aa7c30e1-7606-4aeb-a6ed-401f6f21529d">
+          <DataType>WChar</DataType>
+          <DataSize>35</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7ea3bd18-a9ef-489b-8383-bbc865bb8d79">
+            <TableID>dbo_DCT_Dim_Client</TableID>
+            <ColumnID>DCT_VilleClient</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="56deead6-8811-4c95-8b7c-4cba84832666">
+          <DataType>WChar</DataType>
+          <DataSize>35</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ab3710c-73fe-483b-bf0b-50984a375275">
+            <TableID>dbo_DCT_Dim_Client</TableID>
+            <ColumnID>DCT_PaysClient</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="9e6b8bdb-0e44-4d82-bac8-d063fef389b0">
+        <DataType>WChar</DataType>
+        <DataSize>9</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="852e6fff-8e43-492a-b5d4-b44c398141d1">
+          <TableID>dbo_DCT_Dim_Client</TableID>
+          <ColumnID>DCT_CodePostal</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="11a6c12b-7838-4e04-ad6f-f937c131c6d3">
+          <AttributeID>DCT Ville Client</AttributeID>
+          <Name>VilleClient</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="28ba0ab3-bb76-4e7f-8f35-5f8b76687e3f">
+      <ID>DCT Ville Client</ID>
+      <Name>VilleClient</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f88c2e2d-a6ea-44b5-b829-3553e5c70901">
+          <DataType>WChar</DataType>
+          <DataSize>35</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="58b2b940-cbc2-4da6-9385-4fd14453dd71">
+            <TableID>dbo_DCT_Dim_Client</TableID>
+            <ColumnID>DCT_VilleClient</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="c2916c22-4883-4370-bb93-d331eb89643b">
+          <DataType>WChar</DataType>
+          <DataSize>35</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="de47521e-402c-4df9-b647-3dd2c1f4c06d">
+            <TableID>dbo_DCT_Dim_Client</TableID>
+            <ColumnID>DCT_PaysClient</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="60b777db-6a83-4f1a-be3f-9040ba5846b8">
+        <DataType>WChar</DataType>
+        <DataSize>35</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0abd29ec-e3b0-4813-9245-1606ea179286">
+          <TableID>dbo_DCT_Dim_Client</TableID>
+          <ColumnID>DCT_VilleClient</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a9308f96-5eae-4453-b42d-25159af45b0c">
+          <AttributeID>DCT Pays Client</AttributeID>
+          <Name>PaysClient</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="54e39b65-11c3-470e-b6ca-e1f16ecbf364">
+      <ID>DCT Pays Client</ID>
+      <Name>PaysClient</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5003fd28-d492-4727-bd19-07d5d45a0cb0">
+          <DataType>WChar</DataType>
+          <DataSize>35</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c1a16416-cb70-46ff-acad-fbffb2c51b94">
+            <TableID>dbo_DCT_Dim_Client</TableID>
+            <ColumnID>DCT_PaysClient</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="7f21cdac-2ab8-45b5-91b7-352c1bd931fc">
+        <DataType>WChar</DataType>
+        <DataSize>35</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="08ce4433-df96-4f74-b05e-b0c9b98e7fb6">
+          <TableID>dbo_DCT_Dim_Client</TableID>
+          <ColumnID>DCT_PaysClient</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8de77bdc-d2ac-4b1c-b9b0-9c100a972084">
+      <ID>DCT Classement Client 1</ID>
+      <Name>ClassementClient</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f6bd0e41-f6d3-401f-89b3-c7e8aa50fc5b">
+          <DataType>WChar</DataType>
+          <DataSize>17</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aa703e26-ae18-458e-bc48-1eef617bf088">
+            <TableID>dbo_DCT_Dim_Client</TableID>
+            <ColumnID>DCT_ClassementClient</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="627a8c9f-140c-45eb-a6f0-ab81cb862146">
+        <DataType>WChar</DataType>
+        <DataSize>17</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8b27b9cb-e582-425b-bba3-0ef077f57669">
+          <TableID>dbo_DCT_Dim_Client</TableID>
+          <ColumnID>DCT_ClassementClient</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="95aa905f-b814-4b58-aa26-1f35b6abfe17">
+      <ID>Hierarchy</ID>
+      <Name>H_GeographieClient</Name>
+      <Levels>
+        <Level dwd:design-time-name="f833bd75-6d4b-4511-93de-56dadb6f9c08">
+          <ID>DCT Pays Client</ID>
+          <Name>DCT Pays Client</Name>
+          <SourceAttributeID>DCT Pays Client</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="662dd506-d0a2-44c4-b91e-f36e049f04a4">
+          <ID>VilleClient</ID>
+          <Name>VilleClient</Name>
+          <SourceAttributeID>DCT Ville Client</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5ce38373-e052-471b-8536-5f4ffa9180c9">
+          <ID>CodePostal</ID>
+          <Name>CodePostal</Name>
+          <SourceAttributeID>DCT Code Postal</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="04e26494-13ea-45e3-b861-c634c96a94a5">
+          <ID>Client</ID>
+          <Name>Client</Name>
+          <SourceAttributeID>DCT Intitule Client</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="cdbb3d19-1bdc-4f7d-b99e-709a4e350a79">
+      <ID>Hierarchy 1</ID>
+      <Name>H_ClassementClient</Name>
+      <Levels>
+        <Level dwd:design-time-name="fee9edc7-d658-4b44-9bbe-0611e73b5050">
+          <ID>DCT Classement Client</ID>
+          <Name>DCT Classement Client</Name>
+          <SourceAttributeID>DCT Classement Client 1</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c8b4c403-9e52-485f-a013-09ecbb711702">
+          <ID>Client</ID>
+          <Name>Client</Name>
+          <SourceAttributeID>DCT Intitule Client</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

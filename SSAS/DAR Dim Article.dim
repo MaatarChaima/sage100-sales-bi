@@ -1,0 +1,277 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="316ef887-5c6c-4d42-abd5-c41c3a51d231" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DAR Dim Article</ID>
+  <Name>Article</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-435" scrolltop="-1488" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6435" y="11515" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DFA_DIM_FamilleArticle" left="20" top="5427" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="5080" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d81300006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DFA_DIM_FamilleArticle" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DAR_Dim_Article" left="464" top="0" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="4191" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00005f100000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DAR_Dim_Article" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2161" top="2727" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DAR_Dim_Article-DFA_DIM_FamilleArticle]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="8" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2560" y="5427" />
+              <point x="2560" y="4227" />
+              <point x="2559" y="4227" />
+              <point x="2559" y="3027" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-435</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1488</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="01cabea5-2a29-4bbd-aa59-75bb44618b8a">
+    <DataSourceViewID>DS_SAGE100</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="fda156b6-6d1d-42ca-aef4-83e1807d9b17">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="d0eb4ef7-7677-429f-9c9a-cf1ab9f077b8">
+      <ID>DAR Id Article</ID>
+      <Name>DAR Id Article</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bef67766-5590-4d4f-b0bb-4de58aa863bf">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f9917e3b-53a2-46d1-b627-a8fb21911574">
+            <TableID>dbo_DAR_Dim_Article</TableID>
+            <ColumnID>DAR_IdArticle</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="ebb4973b-f6c3-41e0-8dae-03d05c9c4549">
+        <DataType>WChar</DataType>
+        <DataSize>69</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="caeb9c55-7718-43f2-883b-4e6fbf1d3a9c">
+          <TableID>dbo_DAR_Dim_Article</TableID>
+          <ColumnID>DAR_DescriptionArticle</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7681e049-b30c-42ce-b6e7-cf9c7720a40d">
+          <AttributeID>DAR Code Article</AttributeID>
+          <Name>DAR Code Article</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e63a2b69-2aea-4b5e-a7db-5df56186db4e">
+          <AttributeID>DAR Description Article</AttributeID>
+          <Name>DescriptionArticle</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4e3c0d4d-7f18-4b5d-832b-60e5ffc31fb9">
+          <AttributeID>DFA Id Famille Article</AttributeID>
+          <Name>DFA Id Famille Article</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="329fd3e1-a433-40f2-a8a7-10a6f3490206">
+      <ID>DAR Code Article</ID>
+      <Name>DAR Code Article</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="58b67fcb-b3b3-493f-9e12-6e4125f0d1dd">
+          <DataType>WChar</DataType>
+          <DataSize>19</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a55008c4-b191-432c-ad3d-a44285fc992e">
+            <TableID>dbo_DAR_Dim_Article</TableID>
+            <ColumnID>DAR_CodeArticle</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cff0556a-b339-43a9-ba93-7975c04fbece">
+      <ID>DAR Description Article</ID>
+      <Name>DescriptionArticle</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="036985b1-a8ba-47b3-bb16-aaa4296b4339">
+          <DataType>WChar</DataType>
+          <DataSize>69</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e7056ca3-3cd4-4ae8-b9fa-d5338cff8ac9">
+            <TableID>dbo_DAR_Dim_Article</TableID>
+            <ColumnID>DAR_DescriptionArticle</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="54801aac-a330-4d79-9a5b-bdcdce5aa53e">
+      <ID>DFA Id Famille Article</ID>
+      <Name>DFA Id Famille Article</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4d63efad-db2c-4822-bf56-c422a910732d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8f627f53-db87-4871-adc9-c1988f0ca93a">
+            <TableID>dbo_DFA_DIM_FamilleArticle</TableID>
+            <ColumnID>DFA_IdFamilleArticle</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="5f6be048-2797-41f4-acb1-5fd0eee3e0a0">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9accc610-54d4-41d0-9dd7-2a78c03c897a">
+          <TableID>dbo_DFA_DIM_FamilleArticle</TableID>
+          <ColumnID>DFA_DescriptionFamilleArticle</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="caf0ed74-c27f-4bc2-a2cc-c6ffabb2a94d">
+          <AttributeID>DFA Code Famille Article</AttributeID>
+          <Name>DFA Code Famille Article</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="944beae7-b8b8-4ccc-9dce-dd2e88e825d3">
+          <AttributeID>DFA Description Famille Article</AttributeID>
+          <Name>DescriptionFamilleArticle</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4dcb2631-5ee0-4e2d-84e3-9b687d98a8d6">
+      <ID>DFA Code Famille Article</ID>
+      <Name>DFA Code Famille Article</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d16b516f-095a-438c-96ba-2686a927ed8a">
+          <DataType>WChar</DataType>
+          <DataSize>11</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dc81dfc2-69a7-4049-8bd0-d20c841af18c">
+            <TableID>dbo_DFA_DIM_FamilleArticle</TableID>
+            <ColumnID>DFA_CodeFamilleArticle</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="74fddc1d-8587-4609-8b05-db6857710e3f">
+      <ID>DFA Description Famille Article</ID>
+      <Name>DescriptionFamilleArticle</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9aab8809-7526-4202-910a-1f8d92025616">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="91c3a2f2-a734-46f5-a3a0-3b51076153fa">
+            <TableID>dbo_DFA_DIM_FamilleArticle</TableID>
+            <ColumnID>DFA_DescriptionFamilleArticle</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="b3429a38-e8bc-411d-9169-b52b13b859a1">
+      <ID>Hierarchy</ID>
+      <Name>H_Article</Name>
+      <Levels>
+        <Level dwd:design-time-name="c2a1775b-ba63-4d66-9f1b-beaa79884247">
+          <ID>DFA Id Famille Article</ID>
+          <Name>DFA Id Famille Article</Name>
+          <SourceAttributeID>DFA Id Famille Article</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="b7049c8a-93c0-45f1-af20-ddbe2b7806bb">
+          <ID>DAR Id Article</ID>
+          <Name>DAR Id Article</Name>
+          <SourceAttributeID>DAR Id Article</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
