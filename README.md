@@ -108,7 +108,7 @@ top customers and top products.
 
 ## 📄 Documentation
 
-The full project report (in French, 100 pages) is available here: [`docs/Rapport_PFE_Licence_FR.pdf`](docs/Rapport_PFE_Licence_FR.pdf).
+The full project report (in French, 104 pages) is available here: [`docs/Rapport_PFE_Licence_FR.pdf`](docs/Rapport_PFE_Licence_FR.pdf).
 
 ## 👩‍💻 Authors
 
