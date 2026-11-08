@@ -12,7 +12,11 @@ and interactive **Power BI dashboards** for decision-makers.
 > Bachelor's final-year project (*Projet de Fin d'Études — Licence en Big Data et Analyse de Données*), 2023/2024,
 > carried out at **Wide Insights**, managed with **Scrum** (4 sprints, tracked in Jira).
 
-## 🎬 Demo
+
+
+https://github.com/user-attachments/assets/de97b4be-8bff-4ed7-889f-8c5fa0fc888c
+
+
 
 ETL execution with SSIS, SSAS cube browsing and SQL Server Agent job scheduling, as presented at the project defence (1 min 33, with sound).
 
