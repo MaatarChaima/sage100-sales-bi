@@ -10,7 +10,7 @@ and interactive **Power BI dashboards** for decision-makers.
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboards-F2C811?logo=powerbi&logoColor=black)
 
 > Bachelor's final-year project (*Projet de Fin d'Études — Licence en Big Data et Analyse de Données*), 2023/2024,
-> carried out at **Wide Insights**, managed with **Scrum** (4 sprints, tracked in Jira).
+> carried out at **Wide Insights**, managed with **Scrum** (4 sprints).
 
 
 
@@ -122,15 +122,16 @@ top customers and top products.
 - SQL Server 2019 with Integration Services and Analysis Services (Multidimensional mode)
 - Visual Studio 2019/2022 with the *SQL Server Integration Services Projects* and *Analysis Services Projects* extensions
 - Power BI Desktop
+- A **Sage 100 (v16)** database restored in SQL Server (the demo database shipped with Sage 100)
 
 **Steps:**
-1. Run `sql/DMS_Sage100.sql` in SSMS to create the data mart.
-2. Open `SAGE100_BI.sln` in Visual Studio.
-3. Update the connection managers (`SSIS/*.conmgr`, `SSAS/DS_SAGE100.ds`) with your own SQL Server instance name. They use Windows authentication, so no password is stored.
-4. Run `PCK_Master_Package.dtsx`, then deploy and process the SSAS cube.
-5. Open the `.pbix` file in Power BI Desktop and refresh the data source.
+1. Restore the Sage 100 database in SQL Server.
+2. Run `sql/DMS_Sage100.sql` in SSMS to create the data mart.
+3. Open `SAGE100_BI.sln` in Visual Studio.
+4. Update the connection managers (`SSIS/*.conmgr`, `SSAS/DS_SAGE100.ds`) with your own SQL Server instance name. They use Windows authentication, so no password is stored.
+5. Run `PCK_Master_Package.dtsx`, then deploy and process the SSAS cube.
+6. Open the `.pbix` file in Power BI Desktop and refresh the data source.
 
-> The source Sage 100 database is not included in this repository.
 
 ## 📄 Documentation
 
