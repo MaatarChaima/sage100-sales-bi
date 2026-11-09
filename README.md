@@ -14,13 +14,13 @@ and interactive **Power BI dashboards** for decision-makers.
 
 
 
+
+
+
+
+Project demo: ETL execution with SSIS, SSAS cube browsing and SQL Server Agent job scheduling.
+
 https://github.com/user-attachments/assets/de97b4be-8bff-4ed7-889f-8c5fa0fc888c
-
-
-
-ETL execution with SSIS, SSAS cube browsing and SQL Server Agent job scheduling, as presented at the project defence (1 min 33, with sound).
-
-VIDEO_DEMO
 
 ---
 
